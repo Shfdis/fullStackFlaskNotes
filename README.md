@@ -60,7 +60,5 @@ The Flask Notes Web Application aims to provide users with a user-friendly and e
 To build run:
 <code>
 docker build -t flask-app .
-</code>
-<code>
 docker run -p 5000:5000 flask-app
 </code>
