@@ -56,7 +56,11 @@ Python: The programming language used for the back-end logic.
 
 The Flask Notes Web Application aims to provide users with a user-friendly and efficient platform for note-taking and organization. With its extensive set of features and a robust technical stack, it empowers users to stay organized, collaborate, and easily access their notes from any device with an internet connection.
 
-##Fork with dockerfile
+## Fork with dockerfile
 To build run:
+<code>
 docker build -t flask-app .
+</code>
+<code>
 docker run -p 5000:5000 flask-app
+</code>
